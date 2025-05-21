@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/* Mengatur body agar background lebih lembut */
+body {
+  background-color: #007bff;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+/* Menyesuaikan gaya untuk header */
+#header-section #title-name {
+  font-size: 2.5rem; /* Ukuran font yang lebih besar untuk judul */
+  font-weight: 700; /* Memberikan ketebalan pada font */
+  color: #ffffff; /* Warna biru agar judul lebih menonjol */
+  margin-bottom: 10px; /* Menambahkan jarak di bawah judul */
+}
+
+/* Menata link agar sejajar */
+#header-section a {
+  font-size: 1.1rem; /* Ukuran font untuk link */
+  color: #f0f0f0; /* Warna biru pada link */
+  text-decoration: none; /* Menghapus garis bawah pada link */
+  margin-right: 30px; /* Memberikan jarak antar link */
+  padding: 8px 15px; /* Menambah ruang di dalam link */
+  border-radius: 5px; /* Memberikan sudut melengkung pada link */
+  transition: background-color 0.3s ease; /* Efek transisi saat hover */
+}
+
+/* Menambahkan efek saat hover pada link */
+#header-section a:hover {
+  background-color: #f0f0f0; /* Memberikan latar belakang saat hover */
+  color: #007bff; /* Warna teks menjadi lebih gelap saat hover */
+}
+
+/* Menata card utama dengan border-radius dan shadow */
+.card {
+  background-color:rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px; /* Mengurangi jarak antar card */
+}
+
+#header-daftar-barang {
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+  background-color:rgb(255, 255, 255);
+  color: #222222;
+}
+
+#header-daftar-barang h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* Style untuk Footer */
+.admin-footer {
+  background-color: #fff;
+  color: #007bff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.admin-footer p {
+  margin: 0;
+  font-size: 1rem;
+}
