@@ -2,7 +2,7 @@
 
     $hostname = "localhost";
     $user="root";
-    $password="";
+    $password="12345678";
     $database="webcrud";
 
     $connect = mysqli_connect($hostname, $user, $password, $database)
